@@ -57,3 +57,8 @@ export const ContactForm = ({ onFormSubmit }) => {
     )
 }
 
+
+ContactForm.propTypes = {
+    Name: PropTypes.string,
+    Number: PropTypes.string
+};
